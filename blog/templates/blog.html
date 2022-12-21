@@ -1,0 +1,215 @@
+{%load static%}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="../css/styleHome.scc">
+    <link rel="stylesheet" type="text/css" href="../fontawesome//css/all.min.css">
+
+    <title>Pesanan</title>
+  </head>
+  <body>
+
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Makanan khas <strong>Indonesia</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/HOME">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/DAFTAR MENU">DAFTAR MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/PESANAN ANDA">PESANAN ANDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/CONTACT ME">CONTACT ME</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir Navbar -->
+
+  <!-- awal pesanan-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">No Meja</th>
+              <th scope="col">Pesanan</th>
+              <th scope="col">Harga</th>
+              <th scope="col">Jumlah</th>
+              <th scope="col">Total Harga</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>02</td>
+              <td>Bakso</td>
+              <td>10.000</td>
+              <td>2</td>
+              <td>20.000</td>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Sate</td>
+              <td>15.000</td>
+              <td>3</td>
+              <td>45.000</td>
+            </tr>
+            <tr>
+              <td>05</td>
+              <td>Mie Ayam</td>
+              <td>10.000</td>
+              <td>3</td>
+              <td>30.000</td>
+            </tr>
+            <tr>
+              <td>07</td>
+              <td>Soto Ayam</td>
+              <td>14.000</td>
+              <td>5</td>
+              <td>70.000</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Gado-gado</td>
+              <td>8.000</td>
+              <td>2</td>
+              <td>16.000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- awal pesanan-->
+
+  <!-- Copyright -->
+  <div class="carousel slide mt-3"></div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">CONTACT ME</a>
+  </div>
+  <!-- Copyright -->
+
+  <!-- AwalFooter -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <div class="text-center mt-3">
+    <h1>Ach Nauval Azizi</h1>
+    <p class="ms-5 me-5">Website ini saya buat dengan senang hati</p>
+  </div>
+  <!-- jumbotron -->
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-3">
+              <i class="fas fa-gem me-3"></i>Keterangan
+            </h6>
+            <p>
+              Saya membuat website MAKANAN KHAS INDONESIA ini karna ter- inspirasi dari YouTube
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Product
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Leptop</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Mouse</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Keyboard</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">dan alat kompputer lain nya</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              nauvalazizi078@.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 081022999916</p>
+            <p><i class="fas fa-print me-3"></i> 081999222808</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/"> TERIMAKASIH</a>
+      <h6>kalok puah bisa kembali lagi di Toko Online saya</h6>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</html>
